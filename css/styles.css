@@ -100,11 +100,9 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
     color: #ffffff;
-}
-.hero-container {
-    padding: 188px 331px 188px 327px;
-    
 }
 .main-title {
     font-size: 56px;
@@ -114,6 +112,8 @@ img {
     color: #ffffff;
     max-width: 496px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     }
 .order-button {
     font-family: inherit;
@@ -143,6 +143,8 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -160,8 +162,6 @@ img {
 .benefits-container {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     width: 1128px;
 }
 
@@ -189,10 +189,12 @@ img {
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
-}
-.team-container {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.team-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .our-team-title {
     font-size: 36px;
@@ -240,11 +242,10 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-}
-.portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .services-desc-title {
     font-size: 36px;
     line-height: 1.11;
@@ -278,6 +279,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .service-department {
     font-size: 16px;
@@ -291,10 +293,8 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-}
-.footer-container {
-    padding-top: 100px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -304,7 +304,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: block;
+    display: inline-block;
     width: 115px;
     margin-bottom: 16px;
 }
